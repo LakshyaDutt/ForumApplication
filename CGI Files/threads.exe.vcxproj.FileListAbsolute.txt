@@ -1,0 +1,4 @@
+C:\Users\lakshya\source\repos\threads.exe\Release\threads.exe.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\threads.exe\Release\threads.exe
+C:\Users\lakshya\source\repos\threads.exe\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\threads.exe\Release\zlib1.dll

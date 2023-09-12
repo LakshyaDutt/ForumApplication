@@ -1,0 +1,4 @@
+C:\Users\lakshya\source\repos\verify_otp\Release\verify_otp.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\verify_otp\Release\verify_otp.exe
+C:\Users\lakshya\source\repos\verify_otp\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\verify_otp\Release\zlib1.dll
