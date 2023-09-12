@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/categorystyle.css">
+    <title>Forum Categories</title>
+    <style>
+        .logout-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1rem;
+            padding: 0.5rem;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="/cgi-bin/Categories.exe" method="POST">
+    <header>
+        <h1>Forum Name</h1>
+        <button class="logout-btn" type="button" onclick="location.href='/cgi-bin/logout.exe';">Logout</button>
+    </header>
+    <main>
+        <section class="categories">
+            <ul>
+                <li>
+                    <h2>Category 1</h2>
+                    <p>Description for Category 1.</p>
+                </li>
+                <li>
+                    <h2>Category 2</h2>
+                    <p>Description for Category 2.</p>
+                </li>
+                <li>
+                    <h2>Category 3</h2>
+                    <p>Description for Category 3.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Foob Sec. All rights reserved.</p>
+    </footer>
+</body>
+</html>

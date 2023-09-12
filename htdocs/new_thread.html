@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Thread</title>
+    <link rel="stylesheet" href="http://127.0.0.1/css/new_threadstyle.css">
+</head>
+<body>
+    <h1>Create a New Thread</h1>
+    <form action="/cgi-bin/create_thread.exe" method="post" id="createThreadForm">
+        <input type="hidden" name="category_id" value="">
+        <label for="thread_title">Thread Title:</label>
+        <input type="text" name="thread_title" id="thread_title" required>
+        <br>
+        <label for="content">Content:</label>
+        <textarea name="content" id="content" required></textarea>
+        <br>
+        <input type="submit" value="Create Thread">
+    </form>
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+        var categoryId = urlParams.get('category_id');
+        document.getElementById("createThreadForm").action += "?category_id=" + categoryId;
+        document.getElementsByName("category_id")[0].value = categoryId;
+    </script>
+</body>
+</html>

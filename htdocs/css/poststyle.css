@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-family: 'Consolas';
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+header h1 {
+    color: #08ffd1;
+    font-size: 50px;
+}
+
+main {
+    margin: 20px;
+}
+
+.posts {
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: black;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #08ffd1;
+    font-size: 50px;
+    padding: 20px;
+}
+
+p {
+    color: #08ffd1;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: #08ffd1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.post:hover {
+    background-color: grey;
+}

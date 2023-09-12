@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-family: 'Consolas';
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+header h1 {
+    color: #08ffd1;
+    font-size: 50px;
+}
+
+main {
+    margin: 20px;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories li {
+    background-color: black;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.categories h2 {
+    text-align: center;
+    color: #08ffd1;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.categories p {
+    color: #08ffd1;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: #08ffd1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+footer p {
+    margin: 0;
+}
+.categories:hover{
+    background-color: grey;
+}
+.logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #08ffd1;
+    background-color: #333;
+    color: #08ffd1;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #08ffd1;
+    color: #333;
+    border-color: #08ffd1;
+}

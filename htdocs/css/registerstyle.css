@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	font-family: 'Consolas';
+}
+.register{
+	width: 382px;
+	overflow: hidden;
+	margin: auto;
+	margin: 20 0 0 450px;
+	padding: 80px;
+	background: black;
+	border-radius: 15px;
+}
+h2{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	padding: 20px;
+}
+label{
+	color: #08ffd1;
+	font-size: 17px;
+}
+#name{
+	width: 350px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 8px;
+}
+#username{
+	width: 350px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 8px;
+}
+#email{
+	width: 350px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 8px;
+}
+#password{
+	width: 350px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 8px;
+}
+#repassword{
+	width: 350px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 8px;	
+}
+#register{
+	width: 300px;
+	height: 30px;
+	border: 2px solid #4CAF50;
+	border-radius: 17px;
+	padding-left: 7px;
+	color: blue;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+
+}
+#register.hover{
+	background-color: #4CAF50;
+	color: white;
+}
+

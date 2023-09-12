@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/registerstyle.css">
+    <script>
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return false;
+    }
+
+    window.onload = function() {
+        var error = getQueryVariable("error");
+        var success = getQueryVariable("success");
+        var errorMsgDiv = document.getElementById("error-msg");
+        if (error) {
+            var errorDiv = document.getElementById("error-msg");
+            errorDiv.innerHTML = decodeURIComponent(error);
+            errorDiv.style.display = "block";
+        } else if (success) {
+        	errorMsgDiv.innerHTML = decodeURIComponent(success);
+        	errorMsgDiv.style.color	= "green";
+        	errorMsgDiv.style.display = "block";
+
+        	//Redirecting the user to login page after successful registration
+        	setTimeout(function(){
+        		window.location.href = "http://127.0.0.1/login.html";
+        	}, 2000);
+        }
+    }
+</script>
+
+</head>
+<body>
+    <h2>User Registration</h2>
+    <div class="register">
+        <form action="/cgi-bin/Register.exe" method="POST">
+            <div id="error-msg" style="display: none; color: red;"></div>
+            <label><b>Name</b>
+            </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <br><br>
+            <label><b>Username</b>
+            </label>
+            <input type="text" name="username" id="username" placeholder="Choose a username">
+            <br><br>
+            <label><b>Email</b>
+            </label>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <br><br>
+            <label><b>Password</b>
+            </label>
+            <input type="password" name="password" id="password" placeholder="Choose a strong password">
+            <br><br>
+            <label><b>Re-enter Password</b>
+            </label>
+            <input type="password" name="repassword" id="repassword" placeholder="Re-enter your password">
+            <br><br>
+            <input type="submit" name="register" id="register" value="Register">
+            <br><br>
+            <a href="http://127.0.0.1/login.html">Already Registered? Login Here</a>
+        </form>
+    </div>
+</body>
+</html>
