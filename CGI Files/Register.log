@@ -1,0 +1,10 @@
+﻿  Register.cpp
+C:\Users\lakshya\source\repos\Register\Register.cpp(162,59): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+C:\Users\lakshya\source\repos\Register\Register.cpp(189,77): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+C:\Users\lakshya\source\repos\Register\Register.cpp(138,24): warning C4101: 'rs': unreferenced local variable
+  Generating code
+  7 of 1495 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    22 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Register.vcxproj -> C:\Users\lakshya\source\repos\Register\Release\Register.exe

@@ -1,0 +1,4 @@
+C:\Users\lakshya\source\repos\insert_post\Release\insert_post.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\insert_post\Release\insert_post.exe
+C:\Users\lakshya\source\repos\insert_post\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\insert_post\Release\zlib1.dll

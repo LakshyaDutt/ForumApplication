@@ -1,0 +1,5 @@
+C:\Users\lakshya\source\repos\Register\Release\Register.exe
+C:\Users\lakshya\source\repos\Register\Release\Register.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\Register\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\Register\Release\zlib1.dll
+C:\Users\lakshya\source\repos\Register\Release\libcrypto-3.dll

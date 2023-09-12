@@ -1,0 +1,4 @@
+C:\Users\lakshya\source\repos\logout\Release\logout.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\logout\Release\logout.exe
+C:\Users\lakshya\source\repos\logout\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\logout\Release\zlib1.dll

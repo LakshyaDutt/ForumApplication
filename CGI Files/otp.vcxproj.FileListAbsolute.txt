@@ -1,0 +1,5 @@
+C:\Users\lakshya\source\repos\otp\Release\otp.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\otp\Release\otp.exe
+C:\Users\lakshya\source\repos\otp\Release\libcurl.dll
+C:\Users\lakshya\source\repos\otp\Release\zlib1.dll
+C:\Users\lakshya\source\repos\otp\Release\libmariadb.dll

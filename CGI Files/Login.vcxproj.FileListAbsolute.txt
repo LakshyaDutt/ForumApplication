@@ -1,0 +1,6 @@
+C:\Users\lakshya\source\repos\Login\Release\Login.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\Login\Release\Login.exe
+C:\Users\lakshya\source\repos\Login\Release\libcrypto-3.dll
+C:\Users\lakshya\source\repos\Login\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\Login\Release\zlib1.dll
+C:\Users\lakshya\source\repos\Login\Release\libcurl.dll
