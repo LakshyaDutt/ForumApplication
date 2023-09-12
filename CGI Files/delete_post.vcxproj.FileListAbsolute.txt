@@ -1,0 +1,4 @@
+C:\Users\lakshya\source\repos\delete_post\Release\delete_post.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\delete_post\Release\delete_post.exe
+C:\Users\lakshya\source\repos\delete_post\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\delete_post\Release\zlib1.dll

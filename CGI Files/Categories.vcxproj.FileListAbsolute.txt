@@ -1,0 +1,4 @@
+C:\Users\lakshya\source\repos\Categories\Release\Categories.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\Categories\Release\Categories.exe
+C:\Users\lakshya\source\repos\Categories\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\Categories\Release\zlib1.dll

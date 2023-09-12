@@ -1,0 +1,4 @@
+C:\Users\lakshya\source\repos\delete_thread\Release\delete_thread.vcxproj.CopyComplete
+C:\Users\lakshya\source\repos\delete_thread\Release\delete_thread.exe
+C:\Users\lakshya\source\repos\delete_thread\Release\libmariadb.dll
+C:\Users\lakshya\source\repos\delete_thread\Release\zlib1.dll

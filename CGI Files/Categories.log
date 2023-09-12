@@ -1,0 +1,13 @@
+﻿  Source.cpp
+C:\Users\lakshya\source\repos\Categories\Source.cpp(145,28): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\Users\lakshya\source\repos\Categories\Source.cpp(145,52): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\Users\lakshya\source\repos\Categories\Source.cpp(145,76): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\Users\lakshya\source\repos\Categories\Source.cpp(146,28): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\Users\lakshya\source\repos\Categories\Source.cpp(146,56): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\Users\lakshya\source\repos\Categories\Source.cpp(146,82): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+  Generating code
+  0 of 1150 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Categories.vcxproj -> C:\Users\lakshya\source\repos\Categories\Release\Categories.exe
